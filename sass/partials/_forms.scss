@@ -1,0 +1,44 @@
+
+/* Contact Form */
+
+.contact {
+    background-color:white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 80px;
+  }
+  
+  .contact h1 {
+    color:whitesmoke;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  
+  }
+  
+  .contact form input,
+  textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+  }
+  
+  /* Button */
+  
+  .submit-button {
+    font-weight: 900;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+  }

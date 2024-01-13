@@ -1,0 +1,91 @@
+
+/* Navigation */
+
+nav {
+    position: sticky;
+    background-color:black;
+    color:white;
+    top: 0;
+    z-index: 1;
+  }
+  
+  nav .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 10px 0px;
+  }
+  
+  .logo h1,
+  .logo h1 span {
+    font-size: 1.2rem;
+  }
+  
+  .logo i,
+  .logo span {
+    color:chocolate;
+  }
+  
+  .social {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    text-align: right;
+  
+  }
+  
+  .social a {
+    display: inline-block;
+    width: 40px;
+    height: auto;
+    text-align:center;
+    font-size: 20px;
+     
+  }
+  
+  .social a:hover {
+    background:gold;
+    border: 1px solid black;
+  }
+  
+  .social a i {
+    color:white;
+  }
+  
+  .social a:hover i {
+    color: #ffffff;
+  }
+  
+  .options a {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 1rem;
+    font-weight: 200;
+    color:white;
+    float: left;
+  }
+  
+  .options a:hover {
+    color:gold;
+  }
+  
+  .current {
+    background-color:chocolate;
+    color: white
+  }
+  
+  .social input[type=text] {
+    width: 30%;
+    height: 25px;
+    padding: 5px 5px;
+    color: #666666;
+    border: 1px solid #353535;
+    border-radius: 10px;
+  }
+  
